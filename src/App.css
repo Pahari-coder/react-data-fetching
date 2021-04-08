@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1193px;
+  margin: 0 auto;
+}
+.card {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #ddd;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  text-align: center;
+  flex: 0 0 27%;
+  max-width: 27%;
+}
+
+.card img {
+  border-radius: 50%;
+}
+
+button{box-shadow: 1px 1px 6px #ddd; border:1px solid #ddd; padding:7px 14px;}
+
+
+.text-center{text-align: center;}
